@@ -19,6 +19,8 @@ import com.google.firebase.firestore.Query;
 
 public class MainActivity extends AppCompatActivity {
 
+    //hello
+
     private FirebaseFirestore db= FirebaseFirestore.getInstance();
 
     private CollectionReference notebookRef= db.collection("notebook");
